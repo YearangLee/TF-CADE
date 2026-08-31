@@ -36,10 +36,10 @@ bash scripts/anet.sh
 # Evaluation
 ```bash
 # THUMOS14 dataset
-python eval.py ./configs/thumos14_i3d.yaml ./ckpt/thumos14_i3d_<name>_<num_split>/ --n <num_split>
+python eval.py ./configs/thumos14_i3d.yaml ./ckpt/thumos14_i3d_<output_name>_<num_split>/ --n <num_split>
 
 # ActivityNet v1.3 dataset
-python eval.py ./configs/anet_i3d.yaml ./ckpt/anet_i3d_<name>_<num_split>/ --n <num_split>
+python eval.py ./configs/anet_i3d.yaml ./ckpt/anet_i3d_<output_name>_<num_split>/ --n <num_split>
 ```
 
 # Acknowledgement
